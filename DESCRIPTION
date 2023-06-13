@@ -1,4 +1,4 @@
-Package: pkgDemo
+Package: camDogs
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
@@ -12,3 +12,8 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 URL: https://github.com/mcconvil/pkgDemo
 BugReports: https://github.com/mcconvil/pkgDemo/issues
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    dplyr
